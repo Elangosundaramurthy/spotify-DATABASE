@@ -1,0 +1,5 @@
+create table user_profile(Email_Address varchar (10),Username varchar (10),Password varchar (10),Date_of_Birth varchar (10),Name varchar (10),Profile_Picture varchar (10) );
+create table Songs_and_content(music varchar (10),Audio_books varchar (10),Album_songs varchar (10),broadcast varchar (10));
+INSERT INTO songs_and_content (music,Audio_books,Album_songs,broadcast) VALUES ('life ram','self help','hip hop','gopi_sudh'),('manithan','win_friend','tam_album','hi bro');
+INSERT INTO user_profile (Email_Address,Username,Password,Date_of_Birth,Name,Profile_Picture) VALUES ('es774','elango55','7010491931','11-07-2003','elango','C.User');
+INSERT INTO user_profile (Email_Address,Username,Password,Date_of_Birth,Name,Profile_Picture) VALUES ('nare445','naresh55','8903105689','11-09-2004','NARESH','D.User');
